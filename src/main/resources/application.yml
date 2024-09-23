@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: my-uni-collab
+  jpa:
+    database: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my-uni-collab
+    username: myuser
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
